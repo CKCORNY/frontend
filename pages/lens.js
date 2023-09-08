@@ -8,7 +8,7 @@ export default function lens() {
   return (
     <>
     <Head>
-     <title>Corny</title> <link rel="icon" href="/logocorny.png" type="image/icon"/> 
+     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
     </Head>
 
  
@@ -17,7 +17,7 @@ export default function lens() {
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
       <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      เสื้อยืด
+      Film camera
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -32,10 +32,10 @@ export default function lens() {
           Product
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
-            <li><Link className="dropdown-item" Link href="film">ฮู้ด </Link></li>
+            <li><Link className="dropdown-item" Link href="filmcamera">Film camera</Link></li>
+            <li><Link className="dropdown-item" Link href="film">Film </Link></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><Link className="dropdown-item" Link href="lens">เสื้อยืด</Link></li>
+            <li><Link className="dropdown-item" Link href="lens">Lens</Link></li>
           </ul>
         </li>
         <li className="nav-item">
