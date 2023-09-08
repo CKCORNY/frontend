@@ -8,7 +8,7 @@ export default function film() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>ฮู้ด</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
     </Head>
 
  
@@ -18,8 +18,8 @@ export default function film() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      Film camera
+      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -34,10 +34,10 @@ export default function film() {
           Product
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" Link href="filmcamera">Film camera</Link></li>
-            <li><Link className="dropdown-item" Link href="film">Film </Link></li>
+            <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
+            <li><Link className="dropdown-item" Link href="film">ฮู้ด </Link></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><Link className="dropdown-item" Link href="lens">Lens</Link></li>
+            <li><Link className="dropdown-item" Link href="lens">เสื้อยืด</Link></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -68,8 +68,8 @@ export default function film() {
   <section className="py-5 text-center container">
     <div className="row py-lg-5">
       <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Album example</h1>
-        <p className="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <h1 className="fw-light">example</h1>
+        <p className="lead text-body-secondary">Collection all for my Hood </p>
         <p>
           <a href="#" className="btn btn-primary my-2">Main call to action</a>&nbsp;&nbsp;
           <a href="#" className="btn btn-secondary my-2">Secondary action</a>
@@ -82,10 +82,10 @@ export default function film() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="f1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 1.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI COLOR C200 (135/35MM) </p>
-              <h1><p className="card-text"> 155 ฿ </p></h1>
+              <p className="card-text">เสื้อฮู้ดสีขาว </p>
+              <h1><p className="card-text"> 169 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -96,17 +96,17 @@ export default function film() {
   <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
 </svg> </button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้ </small>
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="f2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 2.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI SUPERIA X-TRA 400 (135/35MM) </p>
-              <h1><p className="card-text"> 209 ฿ </p></h1>
+              <p className="card-text">เสื้อฮู้ดดำแดง (ธีมสัตว์ป่าเป็นเสื้อที่มีโลโก้และมีรอยเลือดอยู่บนเสื้อ)  </p>
+              <h1><p className="card-text"> 349 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -117,17 +117,17 @@ export default function film() {
   <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
 </svg> </button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="f3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 3.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI PRO 400H (135/35MM) </p>
-              <h1><p className="card-text"> 375 ฿ </p></h1>
+              <p className="card-text">เสื้อฮู้ดน้ำเงินลายตัดสีขาว </p>
+              <h1><p className="card-text"> 179 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -138,100 +138,16 @@ export default function film() {
   <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
 </svg> </button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="f4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 4.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME Velvia 50 (135/35MM) </p>
-              <h1><p className="card-text"> 950 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <img src="f8.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME Velvia 100 (135/35MM) </p>
-              <h1><p className="card-text"> 610 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <img src="f9.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME PROVIA 100F (135/35MM) </p>
-              <h1><p className="card-text"> 630 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f5.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK COLOR PLUS 200 (135/35MM) </p>
-              <h1><p className="card-text"> 115 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f6.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK ULTRAMAX 400 (135/35MM) </p>
+              <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -243,17 +159,17 @@ export default function film() {
   <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
 </svg> </button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="f7.jpeg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 5.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK GOLD 200 (135/35MM) </p>
-              <h1><p className="card-text"> 195 ฿ </p></h1>
+              <p className="card-text">เสื้อฮู้ดดำมีลายตรงขอบเสื้อข้างล่าง+โลโก้ที่หลัง </p>
+              <h1><p className="card-text"> 239 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -264,7 +180,91 @@ export default function film() {
   <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
 </svg> </button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+            <img src="hood 6.jpg" alt="Bootstrap" width="100%" height={225} />
+            <div className="card-body">
+              <p className="card-text">เสื้อฮู้ดดำมีลายที่ล่างแขน </p>
+              <h1><p className="card-text"> 169 ฿ </p></h1>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg> </button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+</svg> </button>
+                </div>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="hood 7.jpg" alt="Bootstrap" width="100%" height={225} />
+            <div className="card-body">
+              <p className="card-text">เสื้อฮู้ดดำเหลืองมีสีล่างแขน </p>
+              <h1><p className="card-text"> 150 ฿ </p></h1>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg> </button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+</svg> </button>
+                </div>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="hood 8.jpg" alt="Bootstrap" width="100%" height={225} />
+            <div className="card-body">
+              <p className="card-text">เสื้อฮู้ดน้ำเงินลายแถบสีขาว </p>
+              <h1><p className="card-text"> 199 ฿ </p></h1>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg> </button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+</svg> </button>
+                </div>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="hood 9.jpeg" alt="Bootstrap" width="100%" height={225} />
+            <div className="card-body">
+              <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
+              <h1><p className="card-text"> 199 ฿ </p></h1>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg> </button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+</svg> </button>
+                </div>
+                <small className="text-body-secondary">ออกแบบเปลื่ยนโลโก้ได้</small>
               </div>
             </div>
           </div>

@@ -34,10 +34,10 @@ export default function about() {
           ของในร้าน
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" Link href="filmcamera">Film camera</Link></li>
-            <li><Link className="dropdown-item" Link href="film">Film </Link></li>
+            <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
+            <li><Link className="dropdown-item" Link href="film">ฮู้ด </Link></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><Link className="dropdown-item" Link href="lens">Lens</Link></li>
+            <li><Link className="dropdown-item" Link href="lens">เสื้อยืด</Link></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -72,22 +72,23 @@ export default function about() {
       <div className="col-lg-6">
         <div className="about-text go-to">
           <h3 className="dark-color">About Me</h3>
-          <h6 className="theme-color lead">เจ้าของเว็บไซต์ &amp; ช่างภาพกล้องฟิล์ม</h6>
-          <p> Film camera นั้น <mark>เป็นร้านขายกล้องฟิล์ม กล้องเก่า กล้องมือสอง  อุปกรณ์ถ่ายภาพ และ ฟิล์มถ่ายรูป</mark> 
-          โดยผู้ชำนาญการจริง ในเครือของร้านกล้องฟิล์มดีดี 
+          <h6 className="theme-color lead">ร้าน Corny Shop</h6>
+          <p> ร้านผมเป็นร้านขายสูทเล็กๆ
+              โดยมีผมทำคนเดียว                                   
           </p>   
           <ul type="disc">
-          ขายอะไรบ้าง? สินค้าของทางร้านมีหลากหลายดังนี้
-                     <li>กล้องฟิล์ม กล้องสะสม กล้องมือสอง กล้องโบราณ กล้องฟิล์ม SLR กล้องฟิล์ม RF กล้องฟิล์ม TLR กล้องฟิล์มฟอร์แมต 4x5 กล้องฟิล์มโล่โม่ กล้องโพราลอยด์ </li>
-                     <li>ฟิล์มถ่ายภาพ ฟิล์มสี ฟิล์มขาวดำ ฟิล์ม Negative ฟิล์มสไลด์ ฟิล์ม 135 ฟิล์ม 120 <br></br>ฟิล์มโพลารอยด์</li>
-                     <li>เลนส์กล้องฟิล์ม เลนส์มือหมุน เลนส์วายด์ เลนส์เทเล สำหรับกล้องฟิล์มทุกรุ่น </li>
+                        สิ่งที่ร้านผมขายและทำ
+                     <li>ทำได้ทั้งฮูดแล้วก็สูท(LOGOก็ทำได้นะ) </li>
+                     <li>ราคาเป็นมิตร <br>  
+                     </br>เรื่มต้น150บาทราคาไม่แรง</li>
+                     <li>ทำได้ทุกสีอยู่ที่ลูกค้าสั่ง(ถ้ามีแบบมายิ่งดีทำให้งานเสร็จไวและตามแบบ) </li>
                </ul>
           
               </div>
             </div>
       <div className="col-lg-6">
         <div className="about-avatar">
-          <img src="iconnav1.png" title alt />
+          <img src="LOGO ดาบ.png" title alt />
         </div>
       </div>
     </div>
