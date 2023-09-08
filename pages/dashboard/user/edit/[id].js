@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export async function getServerSideProps(req) {
     const { id } = req.query
-    const res = await fetch('https://frontend-ib7j.vercel.app/api/users/' + id, {
+    const res = await fetch('http://localhost:3000/api/users/' + id, {
       method: 'GET',
     })
     const posts = await res.json();
@@ -25,7 +25,7 @@ export default function Component({ posts }) {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const jsonData = {
-      id: data.get('txt_studentid'),
+      id: data.get('txt_id'),
       studentid: data.get('txt_studentid'),
       firstname: data.get('txt_firstname'),
       lastname: data.get('txt_lastname'),
@@ -34,7 +34,7 @@ export default function Component({ posts }) {
       status: data.get('txt_status')
     }
 
-      fetch(`https://frontend-ib7j.vercel.app/api/users`, {
+      fetch('http://localhost:3000/api/users', {
         method: 'PUT', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
@@ -81,9 +81,9 @@ export default function Component({ posts }) {
             <label></label>
             <input
             type="hidden"
-            name="txt_studentid"
-            id="txt_studentid"
-            className="form-control"
+            name="txt_id"
+            id="txt_id"
+            className="form-control text-black"
             defaultValue={post.id}
             />
           </div>
@@ -92,11 +92,12 @@ export default function Component({ posts }) {
             <label>ID:</label>
             <input
             type="text"
-            name="txt_studentid"
-            id="txt_studentid"
-            className="form-control bg-white"
+            name="txt_tid"
+            id="txt_id"
+            className="form-control text-black"
             defaultValue={post.id}
             required
+            disabled
             />
           </div>
             <div className="form-group">
@@ -106,6 +107,7 @@ export default function Component({ posts }) {
             name="txt_studentid"
             id="txt_studentid"
             className="form-control bg-white"
+            placeholder="Disabled input"
             defaultValue={post.studentid}
             required
             />
