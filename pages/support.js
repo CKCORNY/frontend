@@ -8,7 +8,7 @@ export default function support() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>Corny</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
     </Head>
 
  
@@ -17,8 +17,8 @@ export default function support() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      Film camera
+      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
