@@ -18,7 +18,7 @@ export default function index() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      <img src="logocorny.GIF" alt="Bootstrap" width={50} height={50} />&nbsp;  
       Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ export default function index() {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Product
+          ของในร้าน
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
@@ -72,13 +72,13 @@ export default function index() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={4000}>
-      <img src="s2.jpg" className="d-block w-100" alt="..." />
+      <img src="s2.png" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item" data-bs-interval={4000}>
       <img src="LOGO ดาบ.jpg" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item"data-bs-interval={4000}>
-      <img src="hood 2.jpg" className="d-block w-100" alt="..." />
+      <img src="hood 2.png" className="d-block w-100" alt="..." />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -113,7 +113,7 @@ export default function index() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s1.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโลโก้ทองหลัง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -134,7 +134,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s2.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำเฟทแดงโลโก้ทอง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -155,7 +155,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s3.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโลโก้ทองหลัง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -176,7 +176,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="s4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="s4.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">ดำคอปกแดกโลโกแดง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -197,7 +197,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s5.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s5.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทขาวมีลายคริ่งตัว </p>
               <h1><p className="card-text"> 300 ฿ </p></h1>
@@ -218,10 +218,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s9.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Minolta Hi-Matic 7 Sii (ค.ศ. 1977) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">สูทแดงคอปกดำ </p>
+              <h1><p className="card-text"> 150 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -239,7 +239,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s6.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทขาวโล่งๆ </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -260,7 +260,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s7.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s7.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโล่งๆ </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -325,7 +325,7 @@ export default function index() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 1.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดสีขาว </p>
               <h1><p className="card-text"> 169 ฿ </p></h1>
@@ -346,7 +346,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 2.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำแดง (ธีมสัตว์ป่าเป็นเสื้อที่มีโลโก้และมีรอยเลือดอยู่บนเสื้อ) </p>
               <h1><p className="card-text"> 349 ฿ </p></h1>
@@ -367,7 +367,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 3.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดน้ำเงินลายตัดสีขาว </p>
               <h1><p className="card-text"> 179 ฿ </p></h1>
@@ -388,7 +388,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 4.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
@@ -409,7 +409,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 5.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 5.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำมีลายตรงขอบเสื้อข้างล่าง+โลโก้ที่หลัง </p>
               <h1><p className="card-text"> 239 ฿ </p></h1>
@@ -430,7 +430,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 6.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 6.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำมีลายที่ล่างแขน </p>
               <h1><p className="card-text"> 169 ฿ </p></h1>
@@ -451,7 +451,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 7.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 7.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำเหลืองมีสีล่างแขน </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -472,7 +472,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 8.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 8.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดน้ำเงินลายแถบสีขาว </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
@@ -493,7 +493,7 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 9.jpeg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 9.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>

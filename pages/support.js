@@ -17,7 +17,7 @@ export default function support() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      <img src="logocorny.GIF" alt="Bootstrap" width={50} height={50} />&nbsp;  
       Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

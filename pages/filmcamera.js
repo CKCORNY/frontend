@@ -18,7 +18,7 @@ export default function filmcamera() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      <img src="logocorny.GIF" alt="Bootstrap" width={50} height={50} />&nbsp;  
       Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ export default function filmcamera() {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Product
+          ของในร้าน
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
@@ -83,7 +83,7 @@ export default function filmcamera() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s1.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโลโก้ทองหลัง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -104,7 +104,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s2.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำเฟทแดงโลโก้ทอง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -125,7 +125,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s3.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโลโก้ทองหลัง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -146,7 +146,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="s4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="s4.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">ดำคอปกแดกโลโกแดง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -167,7 +167,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s5.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s5.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทขาวมีลายคริ่งตัว </p>
               <h1><p className="card-text"> 300 ฿ </p></h1>
@@ -188,7 +188,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s6.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทขาวโล่งๆ </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -209,7 +209,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s7.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s7.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำโล่งๆ </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -230,7 +230,7 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="s8.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="s8.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">สูทดำคอปกทองโลโก้ทอง </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -251,10 +251,10 @@ export default function filmcamera() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc9.png" alt="Bootstrap" width="100%" height={225} />
+          <img src="s9.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม YASHICA ELECTRO 35 GS (ค.ศ.1970) </p>
-              <h1><p className="card-text"> 7,890 ฿ </p></h1>
+              <p className="card-text">สูทแดงคอปกดำ </p>
+              <h1><p className="card-text"> 150 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">

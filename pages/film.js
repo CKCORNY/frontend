@@ -18,7 +18,7 @@ export default function film() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="logocorny.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      <img src="logocorny.GIF" alt="Bootstrap" width={50} height={50} />&nbsp;  
       Corny
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ export default function film() {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Product
+          ของในร้าน
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" Link href="filmcamera">สูท</Link></li>
@@ -82,7 +82,7 @@ export default function film() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 1.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดสีขาว </p>
               <h1><p className="card-text"> 169 ฿ </p></h1>
@@ -103,7 +103,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 2.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำแดง (ธีมสัตว์ป่าเป็นเสื้อที่มีโลโก้และมีรอยเลือดอยู่บนเสื้อ)  </p>
               <h1><p className="card-text"> 349 ฿ </p></h1>
@@ -124,7 +124,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 3.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดน้ำเงินลายตัดสีขาว </p>
               <h1><p className="card-text"> 179 ฿ </p></h1>
@@ -145,7 +145,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 4.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
@@ -166,7 +166,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 5.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 5.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำมีลายตรงขอบเสื้อข้างล่าง+โลโก้ที่หลัง </p>
               <h1><p className="card-text"> 239 ฿ </p></h1>
@@ -187,7 +187,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="hood 6.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="hood 6.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำมีลายที่ล่างแขน </p>
               <h1><p className="card-text"> 169 ฿ </p></h1>
@@ -208,7 +208,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 7.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 7.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำเหลืองมีสีล่างแขน </p>
               <h1><p className="card-text"> 150 ฿ </p></h1>
@@ -229,7 +229,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 8.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 8.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดน้ำเงินลายแถบสีขาว </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
@@ -250,7 +250,7 @@ export default function film() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="hood 9.jpeg" alt="Bootstrap" width="100%" height={225} />
+          <img src="hood 9.png" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
               <p className="card-text">เสื้อฮู้ดดำลายขาวมีแถบที่แขน </p>
               <h1><p className="card-text"> 199 ฿ </p></h1>
